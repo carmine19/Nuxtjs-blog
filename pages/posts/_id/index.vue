@@ -21,6 +21,6 @@ export default {
 
 
 
-<style type="scss">
+<style>
 
 </style>
