@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>pagina post</h1>
+    <h1 class="text-center">pagina post</h1>
+    <Card />
   </div>
 </template>
 

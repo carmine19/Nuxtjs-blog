@@ -7,7 +7,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item ">
            <NuxtLink to="/" class="nav-link">Home</NuxtLink>
           </li>
           <li class="nav-item">
