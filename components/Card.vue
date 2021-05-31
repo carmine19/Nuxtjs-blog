@@ -1,23 +1,20 @@
 <template>
-  <div id="card">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 mb-5" >
-          <div class="card" style="width: 18rem;">
-            <img :src="cover" class="card-img-top" :alt="title">
-            <div class="card-body">
-              <h5 class="card-title">{{title}}</h5>
-              <p class="card-text">{{description}}</p>
-              <!-- per passare i parametri, in questo caso l id, bisogna usare un link di vue come creato
-               sotto, cioè     :href="` /posts/${id} `"     -->
-              <a :href="` /posts/${id} `" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+  <div>
+    <div class="col-lg-4 mb-5" >
+      <div class="card" style="width: 18rem;">
+        <img :src="cover" class="card-img-top" :alt="title">
+        <div class="card-body">
+          <h5 class="card-title">{{title}}</h5>
+          <p class="card-text">{{description}}</p>
+          <!-- per passare i parametri, in questo caso l id, bisogna usare un link di vue come creato
+           sotto, cioè     :href="` /posts/${id} `"     -->
+          <a :href="` /posts/${id} `" class="btn btn-primary">Post numero: {{id}}</a>
         </div>
       </div>
     </div>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -53,9 +50,6 @@ export default {
 
 <style>
 
-#card {
-  margin-top: 100px;
 
-}
 
 </style>
