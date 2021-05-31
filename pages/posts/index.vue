@@ -29,11 +29,11 @@ export default {
       return {
         posts : [
           {id : '1', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/random/200x200'},
-          {id : '2', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/random/200x200'},
-          {id : '3', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/random/200x200'},
-          {id : '4', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/random/200x200'},
-          {id : '5', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/random/200x200'},
-          {id : '6', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/random/200x200'},
+          {id : '2', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/user/erondu/200x200'},
+          {id : '3', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/200x200/?nature,wild'},
+          {id : '4', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/collection/190727/200x200'},
+          {id : '5', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/daily/200x200'},
+          {id : '6', title : 'titolo post', description : 'lorem ipsum dolor sit amet', cover: 'https://source.unsplash.com/200x200/?nature,water'},
         ]
       }
     }
