@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="col-lg-4 mb-5" >
-      <div class="card" style="width: 18rem;">
+      <div class="card">
         <img :src="cover" class="card-img-top" :alt="title">
         <div class="card-body">
           <h5 class="card-title">{{title}}</h5>
@@ -13,7 +12,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 
