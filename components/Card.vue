@@ -6,9 +6,10 @@
         <div class="card-body">
           <h5 class="card-title">{{title}}</h5>
           <p class="card-text">{{description}}</p>
-          <!-- per passare i parametri, in questo caso l id, bisogna usare un link di vue come creato
-           sotto, cioè     :href="` /posts/${id} `"     -->
-          <a :href="` /posts/${id} `" class="btn btn-primary">Post numero: {{id}}</a>
+          <!-- per passare i parametri, in questo caso l'id, utilizziamo il nuxt-link andando a specificare
+               che il tag e di tipo 'a' e poi passiamo l'id come parametro legato a post, ricordati che
+               precedentemente hai già definito nella cartella post sia la rotta priincipale che l'id-->
+          <NuxtLink tag="a" :to=" /posts/ + this.id" class="btn btn-primary">Post numero: {{id}}</NuxtLink>
         </div>
       </div>
     </div>
