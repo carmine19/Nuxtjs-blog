@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>new-post</h1>
+    <FormPost  />
   </div>
 </template>
 
