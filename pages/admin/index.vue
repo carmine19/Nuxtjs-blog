@@ -18,7 +18,7 @@
            ricorda bene che le props quando passi un array di oggetti va passato il v-bind, cioè
             :id="post.id" o v-bind:id="post.id", sono la stessa cosa ma servono ad indicare che il paremetro
             è di tipo dinamico o vue-->
-            <Card  :id="post.id" :title="post.title" :description="post.description" :cover="post.cover"  />
+            <Card isAdmin  :id="post.id" :title="post.title" :description="post.description" :cover="post.cover"  />
           </div>
         </div>
       </div>

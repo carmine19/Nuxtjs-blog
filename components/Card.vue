@@ -9,7 +9,7 @@
                che il tag e di tipo 'a' e poi passiamo l'id come parametro legato a post, ricordati che
                precedentemente hai già definito nella cartella post sia la rotta priincipale che l'id-->
           <NuxtLink tag="a" :to=" /posts/ + this.id" class="btn btn-primary">Post numero: {{id}}</NuxtLink>
-          <button v-if="" @click="linkToEdit(id)" class="btn btn-danger">edit</button>
+          <button v-if="isAdmin" @click="linkToEdit(id)" class="btn btn-danger">edit</button>
         </div>
       </div>
     </div>
