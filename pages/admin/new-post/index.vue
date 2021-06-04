@@ -9,9 +9,9 @@
 <script>
 
 export default {
+  layout : 'admin',
   data() {
     return {
-
     }
   }
 }

@@ -19,12 +19,10 @@
             :id="post.id" o v-bind:id="post.id", sono la stessa cosa ma servono ad indicare che il paremetro
             è di tipo dinamico o vue-->
             <Card  :id="post.id" :title="post.title" :description="post.description" :cover="post.cover"  />
-
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
