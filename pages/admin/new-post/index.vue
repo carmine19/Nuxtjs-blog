@@ -1,7 +1,10 @@
 <template>
   <div>
     <h1>new-post</h1>
-    <FormPost  />
+    <!-- componente props centralizzato che richiamo il nostro oggetto newPost tramite la props
+     object che abbiamo creato nel componente, qui poi la richiamiamo assegnadogli il nostro oggetto
+      che abbiamo in data-->
+    <FormPost :post="newPost" />
   </div>
 </template>
 
@@ -12,6 +15,12 @@ export default {
   layout : 'admin',
   data() {
     return {
+      newPost : {
+        id : '',
+        title : 'Titolo prova',
+        description : '',
+        cover: '',
+      }
     }
   }
 }

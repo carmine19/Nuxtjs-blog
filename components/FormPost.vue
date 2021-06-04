@@ -32,9 +32,19 @@
 export default {
   name: "FormPost",
 
+  //usiamo una props per centralizzare il nostro componente in modo da porterlo riusare quante
+  //volte vogliamo
+
+  props : {
+    post : {
+      type : Object,
+      required : false,
+    }
+  },
+
   data() {
     return {
-      newPost : {
+      newPost : this.post ? {...this.post} : {
         id : '',
         title : '',
         description : '',
